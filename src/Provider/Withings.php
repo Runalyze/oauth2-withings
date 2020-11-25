@@ -65,7 +65,7 @@ class Withings extends AbstractProvider
      */
     public function getBaseAccessTokenUrl(array $params)
     {
-        return static::BASE_WITHINGS_URL.'/oauth2/token';
+        return static::BASE_WITHINGS_API_URL.'/v2/oauth2';
     }
 
     /**
